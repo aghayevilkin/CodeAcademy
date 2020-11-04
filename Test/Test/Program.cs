@@ -1,6 +1,8 @@
 ﻿using System;
-using System.Dynamic;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Test
 {
@@ -8,30 +10,32 @@ namespace Test
     {
         static void Main(string[] args)
         {
+
+
             #region Task1
-            string[] cars = { "Volvo", "BMW", "Ford", "Lada" };
-            int[] myNum = { 10, 20, 30, 40 };
+            //string[] cars = { "Volvo", "BMW", "Ford", "Lada" };
+            //int[] myNum = { 10, 20, 30, 40 };
 
-            ////for (int i = 0; i < cars.Length; i++)
-            ////{
-            ////    Console.WriteLine(cars[i]);
-            ////}
-            ////Burda Forech For nan eyni isi goruru
-            foreach (string i in cars)
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("_________________________________");
+            //////for (int i = 0; i < cars.Length; i++)
+            //////{
+            //////    Console.WriteLine(cars[i]);
+            //////}
+            //////Burda Forech For nan eyni isi goruru
+            //foreach (string i in cars)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("_________________________________");
 
-            Array.Sort(myNum);
-            Array.Reverse(myNum);
-            ////Array.ForEach(myNum, n => Console.WriteLine(n));
-            ////Belede yazmaq olur elede  :)
-            foreach (int i in myNum)
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("__________________________________");
+            //Array.Sort(myNum);
+            //Array.Reverse(myNum);
+            //////Array.ForEach(myNum, n => Console.WriteLine(n));
+            //////Belede yazmaq olur elede  :)
+            //foreach (int i in myNum)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("__________________________________");
             #endregion
 
 
@@ -76,11 +80,11 @@ namespace Test
             //foreach (int reqem in reqemler)
             //{
             //    Console.WriteLine(reqem);
-            //    if (reqem>0)
+            //    if (reqem > 0)
             //    {
             //        pozitif++;
             //    }
-            //    else if (reqem<0)
+            //    else if (reqem < 0)
             //    {
             //        negatif++;
             //    }
@@ -144,7 +148,7 @@ namespace Test
 
             #region Task6
 
-            //////1 - 100 - dən təsadüfi ədədləri for dongusu ilə 20 elementli bir sıra halına gətirən proqram:
+            //1 - 100 - dən təsadüfi ədədləri for dongusu ilə 20 elementli bir sıra halına gətirən proqram:
 
             //int[] massiv = new int[20];
             //Random rnd = new Random();
@@ -152,13 +156,42 @@ namespace Test
             //for (int i = 0; i < massiv.Length; i++)
             //{
             //    massiv[i] = rnd.Next(1, 100);
-            //    Console.WriteLine("Massivin {0}. iscisi={1}",i,massiv[i]);
+            //    Console.WriteLine("Massivin {0}. iscisi={1}", i, massiv[i]);
             //}
 
             //Console.ReadKey();
 
             #endregion
 
+
+
+
+
+
+
+
+
+
+
+
+
+            Student student = new Student("iljkjhds", "bgjhg");
+            Student student1 = new Student("iljkjhds", "bgjhg");
+            Student student2 = new Student("iljkjhds", "bgjhg");
+            Student student3 = new Student("iljkjhds", "bgjhg");
+            Student student4 = new Student("iljkjhds", "bgjhg");
+            Student student5 = new Student("iljkjhds", "bgjhg");
+
+            Console.WriteLine(student5.No);
+            
+            
+
+
+
+           
         }
+
+
     }
 }
+
