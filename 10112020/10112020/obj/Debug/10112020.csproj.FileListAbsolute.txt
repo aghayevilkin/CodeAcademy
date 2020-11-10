@@ -1,0 +1,2 @@
+C:\Users\ilkinga\source\repos\10112020\10112020\obj\Debug\10112020.csprojAssemblyReference.cache
+C:\Users\ilkinga\source\repos\10112020\10112020\obj\Debug\10112020.csproj.CoreCompileInputs.cache
